@@ -53,6 +53,25 @@
   z-index: 10;
 }
 
+// ==========================
+
+.dotcontainer{
+  background-color: gray;
+  border-radius: 3em;
+  padding: 4px;
+  margin: 10px auto;
+  width: 4.6%;
+}
+
+.dot{
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  margin: auto;
+  width: 100%;
+}
+
+
 // // =========================
 // // Next and Prev buttons
 // // =========================
