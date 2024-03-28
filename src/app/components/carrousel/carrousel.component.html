@@ -1,7 +1,10 @@
-<button class="previous-button"><img src="../../../assets/image-removebg-preview.png" width="25" alt=""></button>
+<button class="caurousel-button button previous-button"><img src="../../../assets/image-removebg-preview.png" width="25" alt=""></button>
 <div class="carousel">
   <ng-container *ngFor="let image of images; let i = index">
     <img [src]="image.src" class="slide" alt="" />
   </ng-container>
 </div>
-<button class="next-button"><img src="../../../assets/image-removebg-preview.png" width="25" alt=""></button>
+<button class="caurousel-button next-button"><img src="../../../assets/image-removebg-preview.png" width="25" alt=""></button>
+<div class="dotcontainer">
+  <div *ngFor="let image of images; let i = index" class="dot"> ● </div>
+</div>
